@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact | Gprince | Administrative Virtual Assistant</title>
+<meta name="description" content="Get in touch to discuss your administrative support needs.">
+<meta property="og:title" content="Contact | Gprince"><meta property="og:type" content="website">
+<link rel="stylesheet" href="css/styles.css">
+<style>label{display:block;margin:.9rem 0;font-weight:600}input,select,textarea{display:block;width:100%;padding:.65rem;border:1px solid var(--line);border-radius:8px;font:inherit;margin-top:.3rem}textarea{min-height:140px}.err{color:#b00020}.ok{color:#17663a;font-weight:600}.hp{position:absolute;left:-9999px}</style></head>
+<body><a class="skip" href="#main">Skip to content</a><header class="site" id="site-header"></header>
+<main id="main"><section class="block"><div class="wrap" style="max-width:640px">
+<h1>Contact</h1><p>Tell me about your needs, or email <a href="mailto:akinolagod10@gmail.com">akinolagod10@gmail.com</a>.</p>
+<form id="cf" novalidate>
+ <label>Full name *<input name="full_name" required maxlength="120" autocomplete="name"></label>
+ <label>Email address *<input name="email" type="email" required maxlength="254" autocomplete="email"></label>
+ <label>Business or company (optional)<input name="company" maxlength="150" autocomplete="organization"></label>
+ <label>Service required<select name="service" id="service"><option value="">Loading…</option></select></label>
+ <label>Project description or message *<textarea name="message" required maxlength="4000"></textarea></label>
+ <label>Preferred contact method (optional)<select name="preferred_contact"><option value="">No preference</option><option>Email</option><option>Video call</option></select></label>
+ <label>Budget range (optional)<input name="budget_range" maxlength="80" placeholder="e.g. to be discussed"></label>
+ <div class="hp" aria-hidden="true"><label>Leave this empty<input name="website" tabindex="-1" autocomplete="off"></label></div>
+ <button class="btn btn-primary" type="submit">Send message</button>
+</form>
+<p id="cmsg" role="status" aria-live="polite"></p>
+</div></section></main>
+<footer class="site" id="site-footer"></footer>
+<script src="js/config.js"></script><script src="js/layout.js"></script><script src="js/app.js"></script><script src="js/contact.js"></script>
+</body></html>

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+# Add your real sitemap line once your domain is live:
+# Sitemap: https://YOUR-DOMAIN/sitemap.xml
